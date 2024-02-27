@@ -93,8 +93,8 @@ public class Taller3 {
    
     private void consultarEntrada() {
     System.out.print("Ingrese la fecha de la Entrada que desea consultar (dd-MM-yyyy): ");
-    String fechaBuscada = lector.nextLine(); // El usuario ingresa la fecha
     lector.nextLine();
+    String fechaBuscada = lector.nextLine(); // El usuario ingresa la fecha
     // Verificar si hay entradas en esa fecha
   SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
     
